@@ -44,11 +44,14 @@
 - **Session Management**: Automatic token refresh and logout
 
 ### 📚 **Practice Tests & Quizzes**
-- **4 Comprehensive Quiz Categories:**
+- **7 Comprehensive Quiz Categories:**
   - 🟢 **JavaScript Fundamentals** (Easy - 15 mins): Variables, functions, data types
   - 🟡 **Aptitude Test - Quantitative** (Medium - 20 mins): Math, logic, reasoning
   - 🟢 **HR & Behavioral Assessment** (Easy - 10 mins): Soft skills, personality
   - 🔴 **System Design Basics** (Hard - 25 mins): Architecture, scalability
+  - 🔴 **Data Structures & Algorithms** (Hard - 30 mins): Advanced coding concepts
+  - 🟡 **Database Management & SQL** (Medium - 25 mins): Database design, SQL queries
+  - 🟡 **Operating Systems & Networks** (Medium - 20 mins): OS concepts, networking
 - **Real-time Features:**
   - Live countdown timer with visual indicators
   - Instant answer validation
@@ -340,6 +343,21 @@ npm start
    - Database and system design principles
    - Best for: Senior developer roles
 
+5. **🔴 Data Structures & Algorithms** (Hard - 30 minutes)
+   - Binary trees, graphs, sorting algorithms
+   - Time and space complexity analysis
+   - Best for: Software engineering roles
+
+6. **🟡 Database Management & SQL** (Medium - 25 minutes)
+   - SQL queries, joins, normalization
+   - Database design and optimization
+   - Best for: Backend developers, data roles
+
+7. **🟡 Operating Systems & Networks** (Medium - 20 minutes)
+   - Process management, memory allocation
+   - Network protocols and system administration
+   - Best for: System engineers, DevOps roles
+
 **How to Take a Quiz**:
 1. Navigate to **Practice** page
 2. Choose a quiz category based on your preparation needs
@@ -496,11 +514,14 @@ After running `npm run setup-demo`, you'll have access to:
 - **Profile**: Complete with education and skills
 - **Stats**: Pre-populated with realistic data
 
-#### **4 Practice Quizzes**
+#### **7 Practice Quizzes**
 1. **JavaScript Fundamentals** - 5 questions, 15 minutes
 2. **Aptitude Test** - 4 questions, 20 minutes  
 3. **HR Assessment** - 3 questions, 10 minutes
 4. **System Design** - 3 questions, 25 minutes
+5. **Data Structures & Algorithms** - 6 questions, 30 minutes
+6. **Database Management & SQL** - 6 questions, 25 minutes
+7. **Operating Systems & Networks** - 6 questions, 20 minutes
 
 #### **3 Sample Interview Experiences**
 1. **Google** - Software Engineer (Selected) ⭐⭐⭐⭐⭐
@@ -539,10 +560,12 @@ After running `npm run setup-demo`, you'll have access to:
 
 #### **Backend Scripts**
 ```bash
-npm start          # Start production server
-npm run dev        # Development server with auto-reload
-npm run setup-demo # Complete demo setup (recommended)
-npm run seed       # Seed only quiz data
+npm start            # Start production server
+npm run dev          # Development server with auto-reload
+npm run setup-complete # Complete setup with ALL 7 quizzes (recommended)
+npm run setup-demo   # Original demo setup (4 quizzes)
+npm run add-quizzes  # Add 3 additional quiz categories to existing data
+npm run seed         # Seed only original quiz data
 ```
 
 #### **Frontend Scripts**
@@ -681,10 +704,10 @@ REACT_APP_ANALYTICS_ID=your-analytics-id
 ```
 
 #### **Quiz Categories & Structure**
-- **Total Questions**: 15 across 4 categories
-- **Difficulty Levels**: Easy (40%), Medium (40%), Hard (20%)
-- **Topics Covered**: Programming, Aptitude, HR, System Design
-- **Time Limits**: 10-25 minutes per quiz
+- **Total Questions**: 33 across 7 categories
+- **Difficulty Levels**: Easy (30%), Medium (45%), Hard (25%)
+- **Topics Covered**: Programming, Aptitude, HR, System Design, Data Structures, Databases, Operating Systems
+- **Time Limits**: 10-30 minutes per quiz
 
 #### **Interview Experience Data**
 - **Companies**: Google, Microsoft, Amazon
